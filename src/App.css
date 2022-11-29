@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+.custom-font {
+  font-family: 'Oxanium', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-background {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.calculator-container {
+  width: 20rem;
+  height: 27rem;
+  border-radius: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.display-container {
+  height: 15%;
+  width: 100%;
+}
+
+#calculation-data {
+  height: 40%;
+  width: 100%;
+}
+
+#display {
+  height: 60%;
+  width: 100%;
+}
+
+.buttons-wrapper {
+  width: 100%;
+  height: 85%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+#clear {
+  grid-column: 1/3;
+}
+
+#zero {
+  grid-column: 1/3;
+}
+
+#equals {
+  grid-column: 4/5;
+  grid-row: 4/6;
+}
+
+.buttons {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  opacity: 0.85;
 }
