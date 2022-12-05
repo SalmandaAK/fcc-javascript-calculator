@@ -3,4 +3,4 @@ Open [github pages of this project](https://salmandaak.github.io/fcc-javascript-
 
 ## Description
 
-This Javascript Calculator is created for freeCodeCamp front end development librarues certification project, so there is a freeCodeCamp suite-test box in the app. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Javascript Calculator is created for freeCodeCamp front end development libraries certification project, so there is a freeCodeCamp suite-test box in the app. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
